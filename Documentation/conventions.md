@@ -2,9 +2,11 @@
 
 ## Database Conventions
 ### Prefixes
-* Tables: None
-* Stored Procedures: p_
-* Views: v_
+	Tables: None
+	Stored Procedures: p_
+	Views: v_
+
+### Documentation
 * All objects that are not tables, should have a header in the following structure:
 		
 		/** 
@@ -20,6 +22,7 @@
 		**/
 	This is used for automatic documentation
 
+### Install, backup and updates
 * All objects be backed up in:
 	* Database\StoredProcedures
 	* Database\Views
